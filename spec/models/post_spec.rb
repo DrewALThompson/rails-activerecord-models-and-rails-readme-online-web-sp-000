@@ -6,4 +6,7 @@ describe Post do
     expect(post).to be_valid
   end
   
+  it 'has a summary' do
+    post = Post.create!
+  
 end
